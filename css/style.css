@@ -15403,3 +15403,10 @@ p.nodisplaynow3 {
 .ui-widget-content {
   width: 18% !important;
 }
+
+/* custom */
+.custom-page-title {
+  max-height: 700px;
+  width: 100%;
+  overflow: hidden;
+}
