@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Live It Training | Brent Sands</title>
+<meta name="Title" content="Live It Training for Life transcends exercise. You will lose body fat, get stronger and more athletic, and you will learn skills to meet yourself and life at a deeper level. ">
+<meta name="Description" content="Live It Training coaches have helped Olympic Athletes, celebrities, Fortune 500 founders and thousands of people just like you become better versions of themselves. Live It Training takes the best components of physical culture, exercise physiology, behavioral science and mindfulness to create a program that has helped thousands of people lead healthier, happier and richer lives. Wherever you are starting from…We will meet you there. Let’s do this.">
+<meta Name="keywords" Content="exercise,training,online exercise training,online gym,online yoga,online pilates,lose body fat,lose weight,gain strength,athletic,physical,exercise physiology,behavioral science,mindfulness,Olympic Athletes,Rod Connolly,Brent,Live It Lean,Live It Strong,Live It Loose,HIIT,Multi-joint,compound exercises,cardiovascular">
+<meta name="author" content="Donohue Consulting, Inc.">
+<!-- Stylesheets -->
+<link href="../css/bootstrap.css" rel="stylesheet">
+
+<link href="../css/style.css" rel="stylesheet">
+<link href="../css/responsive.css" rel="stylesheet">
+
+<!-- Color Switcher Mockup -->
+<link href="../css/color-switcher-design.css" rel="stylesheet">
+
+<!-- Color Themes -->
+<link id="theme-color-file" href="../css/color-themes/default-theme.css" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="../js/respond.js"></script><![endif]-->
+</head>
+
+<body class="hidden-bar-wrapper">
+
+<div class="page-wrapper">
+ 	
+    <!-- Preloader -->
+    <div class="preloader"></div>
+ 	
+ 	<!-- Main Header-->
+    <header class="main-header header-style-three">
+    	
+		<!-- Header Top -->
+        <div class="header-top">
+            <div class="outer-container">
+                <div class="clearfix">
+				
+					<!-- Top Left -->
+					<div class="top-left pull-left">
+						<div class="text"></div>
+					</div>
+					
+					<!-- Top Right -->
+                   <!-- <div class="top-right pull-right">
+					
+						<!- - Info List - ->
+                        <ul class="info-list">
+							<li><span class="icon fa fa-location-arrow"></span><span class="textwhite">Vail, Colorado, USA</span></li>
+							<li><span class="icon fa fa-phone"></span> <a href="tel:+1-970-688-4433"><span class="textwhite"> +1 (970) 688-4433</span></a></li>
+							<li><span class="icon fa fa-envelope-o"></span> <a href="mailto:info@live-it-training.com"><span class="textwhite"> info@live-it-training.com</span></a></li>
+						</ul>
+                    </div> -->
+					
+                </div>
+            </div>
+        </div>
+		
+		<!-- Header Upper -->
+        <div class="header-upper">
+        	<div class="outer-container clearfix">
+            	
+				<div class="pull-left logo-box">
+					<div class="logo"><a href="../index.html"><img src="../images/logo/LiveItTrainingforLifeLogoFinalsWhiteBack_512x223.png" width="230px" alt="Live It Training" title="Live It Training"></a></div>
+				</div>
+				
+				<div class="nav-outer clearfix">
+					<!--Mobile Navigation Toggler-->
+					<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+					<!-- Main Menu -->
+					<nav class="main-menu navbar-expand-md">
+						<div class="navbar-header">
+							<!-- Toggle Button -->    	
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						
+						<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+							<ul class="navigation clearfix">
+								<li><a href="../index.html">Home</a>
+									<!-- <ul>
+										<li><a href="index.html">Home Page 01</a></li>
+										<li><a href="index-2.html">Home Page 02</a></li>
+										<li><a href="index-3.html">Home Page 03</a></li>
+										<li class="dropdown"><a href="#">Header Styles</a>
+											<ul>
+												<li><a href="index.html">Header Style 01</a></li>
+												<li><a href="index-2.html">Header Style 02</a></li>
+												<li><a href="index-3.html">Header Style 03</a></li>
+											</ul>
+										</li>
+									</ul> -->
+								</li>
+								<li class="current dropdown"><a href="../about.html">About</a>
+									<ul>
+										<li><a href="../about.html">About Us</a></li>
+										<li><a href="../index.html#faq">FAQ</a></li>
+										<li><a href="../membership.html">Membership</a></li>
+										<li><a href="../coaches.html">Team</a></li>
+										
+										<li><a href="../index.html#testimonials">Testimonials</a></li>
+
+										<li class="menu-btn-sub"><a href="../questionnaire.html">Self Inquiry</a></li>
+										<!-- <li><a href="comming-soon.html">Coming Soon</a></li> -->
+									</ul>
+								</li>
+								<li class="dropdown"><a href="../classes/index.html">Classes</a>
+									<ul>
+										<li><a href="../classes/index.html">Classes</a></li>
+										<!-- <li><a href="../classes/classes-detail.html">Classes Detail</a></li> -->
+										<li><a href="../classes/schedule.html">Schedule</a></li>
+									</ul>
+								</li>
+								<!-- <li class="dropdown"><a href="#">Portfolio</a>
+									<ul>
+										<li><a href="portfolio.html">Portfolio</a></li>
+										<li><a href="portfolio-detail.html">Portfolio Detail</a></li>
+									</ul>
+								</li> -->
+								<li><a href="https://live-it-training.mybigcommerce.com/">Shop</a></li>
+
+								<li class="menu-btn"><a href="https://liveittraining.vhx.tv/checkout/subscribe/purchase">Sign Up Now</a></li> 
+									<!-- <li class="dropdown"><a href="#">Blog</a>
+									<ul>
+										<li><a href="blog.html">Our Blog</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+										<li><a href="not-found.html">Not Found</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact us</a></li> -->
+							</ul>
+						</div>
+					</nav>
+					
+					
+				</div>
+				
+            </div>
+        </div>
+        <!--End Header Upper-->
+        
+		<!-- Sticky Header  -->
+        <div class="sticky-header">
+            <div class="auto-container clearfix">
+                <!--Logo-->
+                <div class="logo pull-left">
+                    <a href="index.html" title=""><img src="../images/logo/LiveItTrainingforLifeLogoFinalsWhiteBack_512x223.png" width="230px" alt="Live It Training" title="Live It Training"></a>
+                </div>
+                <!--Right Col-->
+                <div class="pull-right">
+                    <!-- Main Menu -->
+                    <nav class="main-menu">
+                        <!--Keep This Empty / Menu will come through Javascript-->
+                    </nav><!-- Main Menu End-->
+					
+					<!-- Main Menu End-->
+					<div class="outer-box clearfix">
+					
+						
+						
+						<!-- Nav Btn -->
+						<div class="nav-btn navSidebar-button"><span class="icon flaticon-menu"></span></div>
+						
+					</div>
+					
+                </div>
+            </div>
+        </div><!-- End Sticky Menu -->
+    
+		<!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="icon flaticon-multiply"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="../index.html"><img src="../images/logo/LiveItTrainingforLifeLogoFinalsWhiteBack_512x293.png" width="175" alt="Live It Training" title="Live It Training"></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            </nav>
+        </div><!-- End Mobile Menu -->
+	
+    </header>
+    <!-- End Main Header -->
+	
+	
+	
+	<!--Page Title-->
+    <section class="page-title2coach" style="background-image:url(../images/trainers/banner_900x600.jpg)">
+    	<div class="auto-container">
+			<div class="clearfix">
+				<div class="pull-left">
+					<h2>Our Coaches</h2>
+					<div id="slidertextsmallprint">Brent Sands</div>
+				</div>
+				<!-- <div class="pull-right">
+					<ul class="page-breadcrumb">
+						<li><a href="../index.html">home</a></li>
+						<li><a href="../coaches.html">Coaches</a></li>
+						<li>Brent</li>
+					</ul>
+				</div> -->
+			</div>
+        </div>
+    </section>
+    <!--End Page Title-->
+	
+	<!-- Portfolio Detail Section -->
+	<section class="portfolio-detail-section">
+		<div class="auto-container">
+			<div class="inner-box">
+				<div class="image">
+					<img src="../images/trainers/Brent_Sands_1170x600.jpg" alt="Brent - Live It Trainer Coach" id="Brent" />
+				</div>
+				<div class="row clearfix">
+					
+					<!-- Info Column -->
+					<div class="info-column col-lg-4 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<img src="../images/trainers/Brent_side_image_400x600.jpg" alt="Brent - Live It Trainer Trainer">
+							<h4>Brent Sands</h4>
+							<div class="text">Brent is a former professional hockey player and current center for the Vail Yeti hockey team.  He brings 15 years of coaching and sport specific training experience to the Live It program.  Brent helps individuals of all ages and skill levels access their inner athlete.  He gives incredible visual cues that help people of all levels understand proper movement.</div>
+							<ul class="info-list">
+								<li><span>EDUCATION</span><div class="info-details">Bachelors in Exercise Science. BA in art. CSCS</div></li>
+								<li><span>CLASSES</span><div class="info-details">Lean, Strong, Loose</div></li>
+								<li><span>STRENGTHS</span><div class="info-details">I strive every day to not only be a coach, but a student.  I continually learn about all aspects of strength, conditioning and physical movement. I love sharing my experience in this with people who seek to live a better life.</div></li>
+								<li><span>PASSIONS</span><div class="info-details">Playing with my 3 Boston Terriers, strength training, hockey, skiing and art.</div></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- Content Column -->
+					<div class="content-column col-lg-8 col-md-12 col-sm-12">
+						<div class="inner-column">
+							<h3>My Philosophy</h3>
+							<p>Learn how to learn.  When you become a student of life there is no limit to your possibilities.</p>
+							
+							<h5 class="textred bold">I feel alive when...</h5>
+							<p>I’m on the mountain or at the rink.</p><br>
+							<h5 class="textred bold">Which artist is always on your playlist?</h5>
+							<p>Ghostland Observatory.</p><br>
+							<h5 class="textred bold">What health and wellness related topics do you know more about than anyone would ever need to know?</h5>
+							<p>How to apply movement in the gym to movement in life.</p><br>
+							<h5 class="textred bold">What motivates you to keep improving and growing?</h5>
+							<p>A lifelong passion and appetite for all parts of physical culture.</p><br>
+							<h5 class="textred bold">A book that changed your life?</h5>
+							<p><em>Suffer in Silence</em> by David Reid is one of my favorite books. I love stories about soldiers who push their physical and mental limits. It is a perspective shaper.</p><br>
+							<h5 class="textred bold">How has a coach for Live It Training changed the way you approach life?</h5>
+							<p>Live it Training pushes us to achieve what we thought may not have been possible. I love the accountability and attention to detail.</p><br>
+							<h5 class="textred bold">In your coaching, What corrector; or feedback can you not stress enough?</h5>
+							<p>Focus and being present. I always stress to my students the importance of &#8223;Own your posture. Own your power.&#8220;</p><br>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				
+				<!-- More Posts -->
+				<div class="more-posts clearfix">
+					<div class="pull-left">
+						<div class="btn-one-outer"><a href="Claire_Ewing.html#Claire" class="theme-btn btn-style-one"><span class="txt">PREVIOUS</span></a></div>
+					</div>
+					<div class="pull-right">
+						<div class="btn-one-outer"><a href="KJ_Denton.html#KJ" class="theme-btn btn-style-one"><span class="txt">Next</span></a></div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<!-- End Portfolio Detail Section -->
+	
+	
+	
+	
+	
+	
+	
+		<!-- Main Footer -->
+    <footer class="main-footer" style="background-image:url(../images/footer/1125_LiveItTraining_1920x650.jpg)">
+		<div class="auto-container">
+        	<!-- Widgets Section -->
+            <div class="widgets-section">
+            	<div class="row clearfix">
+                	
+                    <!-- Big Column -->					
+					<!--Footer Column-->
+                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+                        <div class="footer-widget logo-widget">
+							<div class="logo centered">
+                               	<a href="../index.html"><img src="../images/shop/YBell/0395_LiveItTraining_291x350.jpg" alt="YBell Weights at Live It Training" /></a>
+                            </div>
+							<div class="text centered">YBells and Live It Mat
+								<br>
+								<div class="btns-box">
+			               			<div class="btn-one-outer"><a href="https://live-it-training.mybigcommerce.com/full-kit-1/" class="theme-btn btn-style-one"><span class="txt">Get Your Tool Kit Now</span></a></div>
+			               		</div>
+							</div>
+									
+						</div>
+					</div>
+
+
+					<!-- Footer column holding 3 colums -->
+					<div class="col-lg-9 col-md-9 col-sm-12 padlt60">
+						<div class="row">
+
+						<!-- Footer Column -->
+	                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+	                        <div class="footer-widget links-widget">
+								<h4>Learn</h4>
+								<ul class="list-link">
+									<li><a href="../index.html#testimonials">Reviews</a></li>
+									<li><a href="../membership.html">Membership</a></li>
+									<li><a href="../questionnaire.html">Self Inquiry</a></li>
+									<li><a href="../first_responders.html">First Responders / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teachers</a></li>
+									<li><a href="../refer.html">Refer a Friend</a></li>
+									
+								</ul>
+							</div>						
+						</div>	
+						<!-- Footer Column -->
+	                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+	                        <div class="footer-widget links-widget">
+								<h4>About</h4>
+								<ul class="list-link">
+									<li><a href="../about.html">About Us</a></li>
+									<!-- <li><a href="../press.html">Press</a></li> -->
+									<li><a href="../careers/index.html">Careers</a></li>
+									<li><a href="../influencers.html">Influencers</a></li>
+									<li><a href="https://live-it-training.mybigcommerce.com/">Shop</a></li>
+									<li><a href="../impact.html">Impact</a></li>
+								</ul>
+							</div>						
+						</div>	
+						<!-- Footer Column -->
+	                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+	                        <div class="footer-widget links-widget">
+								<h4>Support</h4>
+								<ul class="list-link">
+									<li><a href="../contact.html">Contact</a></li>
+									<li><a href="../index.html#faq">FAQs</a></li>
+									<li><a href="../devices.html">Our Apps</a></li>
+								</ul>
+							</div>
+							
+						</div>
+						</div>
+						<div class="row clearfix social_links_centered">
+
+							<!-- Footer Column -->
+	                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+	                        <div class="footer-widget links-widget">
+								&nbsp;
+							</div>						
+						</div>	
+						
+						<!-- Footer Column -->
+	                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+							<div class="footer-widget logo-widget">
+								<div class="social-links">
+									<span>Follow Us</span>
+									<a href="https://www.facebook.com/liveittrainingforlife/" class="fa fa-facebook"></a>
+									<a href="https://twitter.com/LiveItTraining1" class="fa fa-twitter"></a>
+									<a href="https://www.instagram.com/live_it_training/" class="fa fa-instagram"></a>
+									<a href="https://www.youtube.com/channel/UCthyA0qQaFc6_Lh4y57YVng" class="fa fa-youtube"></a>
+								</div>
+							</div>
+						</div>	
+						<!-- Footer Column -->
+	                    <div class="footer-column col-lg-3 col-md-3 col-sm-12">
+	                        <div class="footer-widget links-widget">
+								&nbsp;
+							</div>						
+						</div>	
+					</div>
+					</div>
+
+						
+					
+								
+				</div>
+			</div>
+		
+			<!-- Footer Bottom -->
+			<div class="footer-bottom">
+				<div class="copyright footerlink"> <a href="../privacy/Privacy_Policy.pdf">Privacy Policy</a> &nbsp;&nbsp;&nbsp; <a href="../privacy/Terms_of_Service.pdf">Terms of Service</a> &nbsp;&nbsp;&nbsp; <a href="../privacy/Membership_Terms.pdf">Membership Terms</a> &nbsp;&nbsp;&nbsp; <a href="../privacy/Privacy_Policy.pdf">Your CA Privacy Rights</a> &nbsp;&nbsp;&nbsp; &copy; Copyright 2021 Live It LLC.  All Rights Reserved.  &nbsp;&nbsp;&nbsp; Website by <a href="http://www.donohueconsulting.com">Donohue Consulting, Inc.</a></div>
+			</div>
+		
+		</div>
+	</footer>
+	
+	
+
+
+
+<!-- Search Popup -->
+<!-- Search Popup -->
+<!-- <div class="search-popup">
+	<button class="close-search style-two"><span class="flaticon-multiply"></span></button>
+	<button class="close-search"><span class="flaticon-up-arrow-1"></span></button>
+	<form method="post" action="blog.html">
+		<div class="form-group">
+			<input type="search" name="search-field" value="" placeholder="Search Here" required="">
+			<button type="submit"><i class="fa fa-search"></i></button>
+		</div>
+	</form>
+</div> -->
+	<!-- End Header Search -->
+
+<!--Scroll to top-->
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+<script src="../js/jquery.js"></script>
+
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../js/jquery.fancybox.js"></script>
+<script src="../js/appear.js"></script>
+<script src="../js/parallax.min.js"></script>
+<script src="../js/tilt.jquery.min.js"></script>
+<script src="../js/jquery.paroller.min.js"></script>
+<script src="../js/owl.js"></script>
+<script src="../js/wow.js"></script>
+<script src="../js/nav-tool.js"></script>
+<script src="../js/jquery-ui.js"></script>
+<script src="../js/script.js"></script>
+<script src="../js/color-settings.js"></script>
+
+<!--Google Map APi Key-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJ_QKHN-bi6_1C9f5eYE3pZs1zhQIo5o"></script>
+<script src="../js/map-script.js"></script>
+<!--End Google Map APi-->
+
+</body>
+</html>
