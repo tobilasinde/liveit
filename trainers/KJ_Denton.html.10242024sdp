@@ -59,7 +59,7 @@
                         <ul class="info-list">
 							<li><span class="icon fa fa-location-arrow"></span><span class="textwhite">Vail, Colorado, USA</span></li>
 							<li><span class="icon fa fa-phone"></span> <a href="tel:+1-970-688-4433"><span class="textwhite"> +1 (970) 688-4433</span></a></li>
-							<li><span class="icon fa fa-envelope-o"></span> <a href="mailto:info@live-it-training.com"><span class="textwhite"> info@live-it-training.com</span></a></li>
+							<li><span class="icon fa fa-envelope-o"></span> <a href="../contact.html"><span class="textwhite"> info@live-it-training.com</span></a></li>
 						</ul>
                     </div> -->
 					
@@ -321,7 +321,11 @@
 	                        <div class="footer-widget links-widget">
 								<h4>Learn</h4>
 								<ul class="list-link">
-									<li><a href="../index.html#testimonials">Reviews</a></li>
+																				<li>
+												<a href="../index.html#testimonials" class="d-none d-md-block">Reviews</a>
+												<a href="../index.html#testimonial-responsive"
+													class="d-md-none">Reviews</a>
+											</li>
 									<li><a href="../membership.html">Membership</a></li>
 									<li><a href="../questionnaire.html">Self Inquiry</a></li>
 									<li><a href="../first_responders.html">First Responders / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teachers</a></li>

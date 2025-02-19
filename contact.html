@@ -95,8 +95,12 @@
 									<li class="dropdown"><a href="about.html">About</a>
 										<ul>
 											<li><a href="about.html">About Us</a></li>
-											<li><a href="coaches.html">Team</a></li>
-											<li><a href="index.html#testimonials">Testimonials</a></li>
+											<li>
+												<a href="index.html#testimonials"
+													class="d-none d-md-block">Testimonials</a>
+												<a href="index.html#testimonial-responsive"
+													class="d-md-none">Testimonials</a>
+											</li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="index.html#programs">Programs</a>
@@ -107,7 +111,7 @@
 									</li>
 
 
-									<li class="menu-btn"><a href="mailto:info@live-it-training.com">Contact Us Now</a>
+									<li class="menu-btn"><a href="contact.html">Contact Us Now</a>
 									</li>
 
 
@@ -195,7 +199,7 @@
 		<!-- Contact Form Section -->
 		<section class="contact-form-section">
 			<div class="auto-container">
-				<form class="mb-5">
+				<form class="mb-5" id="userinfo">
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputFirstName4">First Name</label>
@@ -242,8 +246,8 @@
 						<p class="text">For all other inquiries, please visit our FAQs on either our <a
 								href="concierge.html#faq">Concierge Wellness Program</a> page or our <a
 								href="concierge.html#faq">Women's Group Program</a> page for answers to frequently asked
-							questions. If you still need assistance, please <a
-								href="mailto:info@live-it-training.com">select here to send us an email.</a>
+							questions. If you still need assistance, please <a href="contact.html">select here to send
+								us an email.</a>
 
 
 
@@ -290,7 +294,7 @@
 								<div class="text centered">
 									<br>
 									<div class="btns-box">
-										<div class="btn-one-outer"><a href="info@live-it-training.com"
+										<div class="btn-one-outer"><a href="mailto:info@live-it-training.com"
 												class="theme-btn btn-style-one"><span class="txt">Email for More
 													Info</span></a></div>
 									</div>
@@ -311,7 +315,12 @@
 										<ul class="list-link">
 											<li><a href="concierge.html">Live It Concierge Wellness</a></li>
 											<li><a href="membership.html">Womens Group Program</a></li>
-											<li><a href="index.html#testimonials">Reviews</a></li>
+
+											<li>
+												<a href="index.html#testimonials" class="d-none d-md-block">Reviews</a>
+												<a href="index.html#testimonial-responsive"
+													class="d-md-none">Reviews</a>
+											</li>
 
 
 										</ul>
@@ -436,6 +445,19 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJ_QKHN-bi6_1C9f5eYE3pZs1zhQIo5o"></script>
 	<script src="js/map-script.js"></script>
 	<!--End Google Map APi-->
+	<script>
+		const form = document.querySelector("#userinfo");
+
+		async function sendData() {
+			alert("Thank you for your submission. We will be in touch soon.");
+		}
+
+		// Take over form submission
+		form.addEventListener("submit", (event) => {
+			event.preventDefault();
+			sendData();
+		});
+	</script>
 </body>
 
 </html>

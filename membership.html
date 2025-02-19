@@ -96,8 +96,12 @@
 									<li class="dropdown current"><a href="about.html">About</a>
 										<ul>
 											<li><a href="about.html">About Us</a></li>
-											<li><a href="coaches.html">Team</a></li>
-											<li><a href="index.html#testimonials">Testimonials</a></li>
+											<li>
+												<a href="index.html#testimonials"
+													class="d-none d-md-block">Testimonials</a>
+												<a href="index.html#testimonial-responsive"
+													class="d-md-none">Testimonials</a>
+											</li>
 										</ul>
 									</li>
 									<li class="dropdown"><a href="index.html#programs">Programs</a>
@@ -108,7 +112,7 @@
 									</li>
 
 
-									<li class="menu-btn"><a href="mailto:info@live-it-training.com">Contact Us Now</a>
+									<li class="menu-btn"><a href="contact.html">Contact Us Now</a>
 									</li>
 
 
@@ -228,7 +232,7 @@
 						<br>&nbsp;
 					</div>
 
-					<!-- <div class="btn-one-outer"><a href="mailto:info@live-it-training.com" class="theme-btn btn-style-one" type="submit"><span class="txt">Email to Learn More</span></a></div> -->
+					<!-- <div class="btn-one-outer"><a href="contact.html" class="theme-btn btn-style-one" type="submit"><span class="txt">Email to Learn More</span></a></div> -->
 				</div>
 			</div>
 		</section>
@@ -335,8 +339,8 @@
 
 							<div class="price">Per Month<span>$300.00</span></div>
 							<div class="price_height"></div>
-							<div class="btn-one-outer"><a href="mailto:info@live-it-training.com"
-									class="theme-btn btn-style-one" type="submit"><span class="txt">Email Now</span></a>
+							<div class="btn-one-outer"><a href="contact.html" class="theme-btn btn-style-one"
+									type="submit"><span class="txt">Email Now</span></a>
 							</div>
 						</div>
 					</div>
@@ -348,8 +352,8 @@
 
 							<div class="price_gift">Yearly or Monthly<span>Give a Loved One the Gift of Living their
 									Fullest Life</span></div>
-							<div class="btn-one-outer"><a href="mailto:info@live-it-training.com"
-									class="theme-btn btn-style-one" type="submit"><span class="txt">Email Now</span></a>
+							<div class="btn-one-outer"><a href="contact.html" class="theme-btn btn-style-one"
+									type="submit"><span class="txt">Email Now</span></a>
 							</div>
 						</div>
 					</div>
@@ -556,23 +560,175 @@
 									<!-- Timetable Tabs-->
 									<div class="timetable-tabs tabs-box" id="options">
 										<!--Filter Block-->
-										<ul id="filter" class="option-set center" data-option-key="filter">
-											<li><a class="selected news-archieve-year" href="#filter"
-													data-option-value="*">All</a></li>
-											<li><a href="#filter" data-option-value=".category1"
-													class="news-archieve-year">Live
+										<ul id="filter" class="nav option-set center">
+											<li><a class="news-archieve-year" href="#all" data-toggle="tab">All</a></li>
+											<li><a href="#lean" data-toggle="tab" class="news-archieve-year">Live
 													It Lean</a></li>
-											<li><a href="#filter" data-option-value=".category2"
-													class="news-archieve-year">Live
+											<li><a href="#strong" data-toggle="tab" class="news-archieve-year">Live
 													It Strong</a></li>
-											<li><a href="#filter" data-option-value=".category3"
-													class="news-archieve-year">Live
+											<li><a href="#loose" data-toggle="tab" class="news-archieve-year">Live
 													It Loose</a></li>
 										</ul>
 										<!--Tabs Container-->
-										<div class="portfolio_block tabs-content">
+										<div class="portfolio_block tabs-content tab-content"
+											style="border-bottom: 0px; background: transparent;">
 											<!--Tab / Active Tab-->
-											<div class="tab active-tab" id="prod-cardio">
+											<div class="tab-pane fade show active clearfix" id="all">
+												<div class="row content">
+													<div class="clearfix">
+														<!-- Time Box -->
+														<div class="element category1 time-box first">
+															<div class="box-inner row">
+																<div class="timecount col-lg-4 col-md-4 col-sm-4">
+																	<div class="btns-box">
+																		<div class="btn-six-outer"><br><a href=""
+																				class="theme-btn btn-style-six"><span
+																					class="txt">Mon 10:00 AM</span></a>
+																		</div>
+																	</div>
+																</div>
+
+																<div class="timepic col-lg-2 col-md-2 col-sm-2">
+																	<img src="./images/schedule/LiveItRod_80x80.jpg"
+																		alt="Rod Connolly">
+																</div>
+																<div class="timeclass col-lg-6 col-md-6 col-sm-6">
+																	<div class="row">
+																		<div class="col-lg-12 col-md-12 col-sm-12"><img
+																				src="./images/levels/live_it_training_levels_moderate_25x30.png"
+																				alt="Moderate Level"> Moderate</div>
+																		<div
+																			class="timeclassdesc col-lg-12 col-md-12 col-sm-12">
+																			60 min Live It Lean</div>
+																		<div class="col-lg-12 col-md-12 col-sm-12">Rod
+																			Connolly
+																			<img src="./images/types/types_triangles/Lean_orange_15x15.png"
+																				alt="Live It Lean"> Live
+																			It Lean
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row content">
+													<div class="clearfix">
+														<!-- Time Box -->
+														<div class="element category2 time-box first">
+															<div class="box-inner row">
+																<div class="timecount col-lg-4 col-md-4 col-sm-4">
+																	<div class="btns-box">
+																		<div class="btn-six-outer"><br><a href=""
+																				class="theme-btn btn-style-six"><span
+																					class="txt">Tue&nbsp; 8:30
+																					AM&nbsp;</span></a></div>
+																	</div>
+																</div>
+																<div class="timepic col-lg-2 col-md-2 col-sm-2">
+																	<img src="./images/schedule/LiveItRod_80x80.jpg"
+																		alt="Rod Connolly">
+																</div>
+																<div class="timeclass col-lg-6 col-md-6 col-sm-6">
+																	<div class="row">
+																		<div class="col-lg-12 col-md-12 col-sm-12"><img
+																				src="./images/levels/live_it_training_levels_vigorous_25x30_3.png"
+																				alt="Vigorous Level"> Vigorous</div>
+																		<div
+																			class="timeclassdesc col-lg-12 col-md-12 col-sm-12">
+																			60 min Live It Strong</div>
+																		<div class="col-lg-12 col-md-12 col-sm-12">Rod
+																			Connolly
+																			<img src="./images/types/types_triangles/Strong_red_15x15.png"
+																				alt="Live It Strong">
+																			Live It Strong
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row content">
+													<div class="clearfix">
+														<!-- Time Box -->
+														<div class="element category2 time-box first">
+															<div class="box-inner row">
+																<div class="timecount col-lg-4 col-md-4 col-sm-4">
+																	<div class="btns-box">
+																		<div class="btn-six-outer"><br><a href=""
+																				class="theme-btn btn-style-six"><span
+																					class="txt">Wed 10:00 AM</span></a>
+																		</div>
+																	</div>
+																</div>
+																<div class="timepic col-lg-2 col-md-2 col-sm-2">
+																	<img src="./images/schedule/LiveItRod_80x80.jpg"
+																		alt="Rod Connolly">
+																</div>
+																<div class="timeclass col-lg-6 col-md-6 col-sm-6">
+																	<div class="row">
+																		<div class="col-lg-12 col-md-12 col-sm-12"><img
+																				src="./images/levels/live_it_training_levels_vigorous_25x30_3.png"
+																				alt="Vigorous Level"> Vigorous</div>
+																		<div
+																			class="timeclassdesc col-lg-12 col-md-12 col-sm-12">
+																			60 min Live It Strong</div>
+																		<div class="col-lg-12 col-md-12 col-sm-12">Rod
+																			Connolly
+																			<img src="./images/types/types_triangles/Strong_red_15x15.png"
+																				alt="Live It Strong">
+																			Live It Strong
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row content">
+													<div class="clearfix">
+														<!-- Time Box -->
+														<div class="element category3 time-box first">
+															<div class="box-inner row">
+																<div class="timecount col-lg-4 col-md-4 col-sm-4">
+																	<div class="btns-box">
+																		<div class="btn-six-outer"><br><a href=""
+																				class="theme-btn btn-style-six"><span
+																					class="txt">Thu&nbsp; 8:30
+																					AM&nbsp;</span></a></div>
+																	</div>
+																</div>
+																<div class="timepic col-lg-2 col-md-2 col-sm-2">
+																	<img src="./images/schedule/LiveItRod_80x80.jpg"
+																		alt="Rod Connolly">
+																</div>
+																<div class="timeclass col-lg-6 col-md-6 col-sm-6">
+																	<div class="row">
+																		<div class="col-lg-12 col-md-12 col-sm-12"><img
+																				src="./images/levels/live_it_training_levels_cautious_25x30.png"
+																				alt="Development Level"> Development
+																		</div>
+																		<div
+																			class="timeclassdesc col-lg-12 col-md-12 col-sm-12">
+																			60 min Live It Loose</div>
+																		<div class="col-lg-12 col-md-12 col-sm-12">Rod
+																			Connolly <img
+																				src="./images/types/types_triangles/Loose_yellow_15x15.png"
+																				alt="Live It Loose"> Live It Loose</div>
+																	</div>
+																</div>
+
+															</div>
+														</div>
+													</div>
+												</div>
+
+											</div>
+											<div class="tab-pane fade clearfix" id="lean">
 												<div class="row content">
 													<div class="clearfix">
 														<!-- Time Box -->
@@ -611,6 +767,8 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab-pane fade clearfix" id="strong">
 												<div class="row content">
 													<div class="clearfix">
 														<!-- Time Box -->
@@ -639,7 +797,8 @@
 																		<div class="col-lg-12 col-md-12 col-sm-12">Rod
 																			Connolly
 																			<img src="./images/types/types_triangles/Strong_red_15x15.png"
-																				alt="Live It Strong"> Live It Strong
+																				alt="Live It Strong">
+																			Live It Strong
 																		</div>
 																	</div>
 																</div>
@@ -676,7 +835,8 @@
 																		<div class="col-lg-12 col-md-12 col-sm-12">Rod
 																			Connolly
 																			<img src="./images/types/types_triangles/Strong_red_15x15.png"
-																				alt="Live It Strong"> Live It Strong
+																				alt="Live It Strong">
+																			Live It Strong
 																		</div>
 																	</div>
 																</div>
@@ -685,6 +845,8 @@
 														</div>
 													</div>
 												</div>
+											</div>
+											<div class="tab-pane fade clearfix" id="loose">
 												<div class="row content">
 													<div class="clearfix">
 														<!-- Time Box -->
@@ -899,7 +1061,7 @@
 
 											</ul>
 											<div class="btns-box">
-												<div class="btn-one-outer"><a href="mailto:info@live-it-training.com"
+												<div class="btn-one-outer"><a href="contact.html"
 														class="theme-btn btn-style-one"><span class="txt">Email
 															Now</span></a>
 												</div>
@@ -962,7 +1124,12 @@
 										<ul class="list-link">
 											<li><a href="concierge.html">Live It Concierge Wellness</a></li>
 											<li><a href="membership.html">Womens Group Program</a></li>
-											<li><a href="index.html#testimonials">Reviews</a></li>
+
+											<li>
+												<a href="index.html#testimonials" class="d-none d-md-block">Reviews</a>
+												<a href="index.html#testimonial-responsive"
+													class="d-md-none">Reviews</a>
+											</li>
 
 
 										</ul>
