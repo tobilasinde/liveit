@@ -1,3 +1,24 @@
+<?php 
+if(isset($_POST['submit'])){
+    $to = "info@live-it-training.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+	$phone = $_POST['phone'];
+    $subject = "Form submission";
+    $subject2 = "Copy of your form submission";
+    $message = $first_name . " " . $last_name . " " . $phone . " wrote the following:" . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $first_name . "\n\n" . $_POST['message'];
+
+    $headers = "From: " . $from;
+    $headers2 = "From: " . $to;
+    $result1 = mail($to,$subject,$message,$headers);
+    $result2 = mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+	if($result1 && $result2){
+		echo "<script>alert('Mail Sent. Thank you " . $first_name . ", we will contact you shortly.');</script>";
+	}
+    }
+?>
 <!DOCTYPE html>
 <html>
 
@@ -111,7 +132,7 @@
 									</li>
 
 
-									<li class="menu-btn"><a href="contact.html">Contact Us Now</a>
+									<li class="menu-btn"><a href="contact.php">Contact Us Now</a>
 									</li>
 
 
@@ -199,33 +220,33 @@
 		<!-- Contact Form Section -->
 		<section class="contact-form-section">
 			<div class="auto-container">
-				<form class="mb-5" id="userinfo">
+				<form class="mb-5" id="userinfo" method="post" action="">
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputFirstName4">First Name</label>
-							<input type="text" class="form-control" id="inputFirstName4" placeholder="FirstName">
+							<input type="text" class="form-control" id="inputFirstName4" placeholder="FirstName" name="first_name">
 						</div>
 						<div class="form-group col-md-6">
 							<label for="inputLastName4">Last Name</label>
-							<input type="text" class="form-control" id="inputLastName4" placeholder="LastName">
+							<input type="text" class="form-control" id="inputLastName4" placeholder="LastName" name="last_name">
 						</div>
 					</div>
 					<div class="form-row">
 						<div class="form-group col-md-6">
 							<label for="inputEmail4">Email</label>
-							<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+							<input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
 						</div>
 						<div class="form-group col-md-6">
 							<label for="inputphone4">Phone</label>
-							<input type="text" class="form-control" id="inputphone4" placeholder="phone">
+							<input type="text" class="form-control" id="inputphone4" placeholder="phone" name="phone">
 						</div>
 					</div>
 					<div class="form-group">
 						<label for="inputAddress">Message</label><textarea class="form-control"
-							id="exampleFormControlTextarea1" rows="3"></textarea>
+							id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
 
 					</div>
-					<button type="submit" class="btn btn-warning btn-block">Submit</button>
+					<input type="submit" name="submit" value="Submit" class="btn btn-warning btn-block">Submit</button>
 				</form>
 
 				<div class="row clearfix">
@@ -246,7 +267,7 @@
 						<p class="text">For all other inquiries, please visit our FAQs on either our <a
 								href="concierge.html#faq">Concierge Wellness Program</a> page or our <a
 								href="concierge.html#faq">Women's Group Program</a> page for answers to frequently asked
-							questions. If you still need assistance, please <a href="contact.html">select here to send
+							questions. If you still need assistance, please <a href="contact.php">select here to send
 								us an email.</a>
 
 
@@ -343,7 +364,7 @@
 									<div class="footer-widget links-widget">
 										<h4>Support</h4>
 										<ul class="list-link">
-											<li><a href="contact.html">Contact</a></li>
+											<li><a href="contact.php">Contact</a></li>
 
 										</ul>
 									</div>
@@ -445,7 +466,7 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIJ_QKHN-bi6_1C9f5eYE3pZs1zhQIo5o"></script>
 	<script src="js/map-script.js"></script>
 	<!--End Google Map APi-->
-	<script>
+	<!-- <script>
 		const form = document.querySelector("#userinfo");
 
 		async function sendData() {
@@ -457,7 +478,7 @@
 			event.preventDefault();
 			sendData();
 		});
-	</script>
+	</script> -->
 </body>
 
 </html>
